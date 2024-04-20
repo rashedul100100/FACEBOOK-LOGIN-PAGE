@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+}
+
+.container {
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.facebook-left {
+    margin-top: -187px;
+}
+
+.facebook-left .image {
+    width: 261px;
+    height: 133px;
+}
+
+.facebook-left p {
+    font-size: 27px;
+    margin-top: -22px;
+}
+
+.facebook-left .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.login-area {
+    box-shadow: 0px 0px 19px -10px black;
+    padding: 20px;
+    border-radius: 9px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+}
+
+.login-form {
+    margin-bottom: 12px;
+}
+
+.login-form input {
+    padding: 15px 10px;
+    outline: 0;
+    margin-bottom: 14px;
+    border-radius: 5px;
+    border: 0.5px solid #80808059;
+    font-size: 16px;
+    width: 100%;
+
+}
+
+.btn {
+    padding: 15px 10px;
+    width: 100%;
+    background-color: #0766ff;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #2572ec;
+    transition: all 0.5s ease;
+}
+
+.forgot-password {
+    text-align: center;
+}
+
+.forgot-password a {
+    text-decoration: none;
+}
+
+.line {
+    margin-bottom: 21px;
+    margin-top: 21px;
+    color: #80808024;
+}
+
+.new-btn {
+    padding: 12px 30px 12px 30px;
+    background-color: #41bd28;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #42b72a;
+    outline: 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.new-btn:hover {
+    background-color: #359e1f;
+    transition: all 0.5s ease;
+}
+
+.facebook-right .creat-page {
+    font-size: 14px;
+    padding: 14px;
+}
+
+
+/* ======= sign up section here ================= */
+
+.sign-container {
+    /* background-color: #000000b8; */
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    visibility: visible;
+    background: url(image/FireShot\ Capture\ 001\ -\ Facebook\ login\ page\ design\ -\ .png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay {
+    width: 100%;
+    height: 100vh;
+    background: #000000b8;
+}
+.sign-up-section {
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border-radius: 9px;
+}
+
+.sign-up-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.sign-up-heading h2 {
+    margin-bottom: 5px;
+}
+
+.sign-right button {
+    padding: 10px 15px;
+    outline: 0;
+    border: none;
+    background-color: rgb(148, 69, 69);
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sign-form input {
+    padding: 15px 10px;
+    margin-bottom: 14px;
+    outline: 0;
+    border: 1px solid #80808040;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.first-name {
+    width: 48%;
+}
+
+.last-name {
+    width: 48%;
+    margin-left: 12px;
+}
+
+#email,
+#password {
+    width: 100%;
+}
+
+#date {
+    border: none;
+
+}
+
+.sign-form {
+    padding: 10px;
+}
+
+.sign-form p {
+    padding: 15px 0px;
+}
+
+#radio {
+    margin-left: 58px;
+}
+
+.sign-form .sign-btn {
+    margin-bottom: 10px;
+    padding: 14px 57px;
+    background-color: #359e1f;
+    outline: 0;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 128px;
+    margin-top: 18px;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
